@@ -1,0 +1,62 @@
+build/synth/baseline.log
+
+=== secure_soc ===
+
+   Number of wires:               5575
+   Number of wire bits:           7213
+   Number of public wires:          81
+   Number of public wire bits:    1680
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6748
+     $_ANDNOT_                    1167
+     $_AND_                         65
+     $_DFFE_PP_                   1072
+     $_DFF_P_                       14
+     $_MUX_                       2732
+     $_NAND_                        79
+     $_NOR_                        168
+     $_NOT_                        275
+     $_ORNOT_                      170
+     $_OR_                         640
+     $_SDFFCE_PN0P_                 18
+     $_SDFFCE_PP0P_                  2
+     $_SDFFE_PP0P_                  32
+     $_XNOR_                        88
+     $_XOR_                        226
+
+End of script. Logfile hash: 5cd6f288fe, CPU: user 4.76s system 0.10s, MEM: 47.69 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 22% 36x opt_expr (1 sec), 19% 22x opt_merge (1 sec), ...
+build/synth/accelerated.log
+
+   Number of wires:              11947
+   Number of wire bits:          15389
+   Number of public wires:         115
+   Number of public wire bits:    3487
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              14212
+     $_ANDNOT_                    2409
+     $_AND_                        247
+     $_DFFE_PP_                   1840
+     $_DFF_P_                       46
+     $_MUX_                       4093
+     $_NAND_                       293
+     $_NOR_                        722
+     $_NOT_                        800
+     $_ORNOT_                      245
+     $_OR_                        1475
+     $_SDFFCE_PN0P_                 16
+     $_SDFFCE_PP0P_                  4
+     $_SDFFE_PP0P_                 158
+     $_SDFFE_PP1P_                 136
+     $_SDFF_PP0_                     1
+     $_XNOR_                       684
+     $_XOR_                       1043
+
+End of script. Logfile hash: aaa33a0e5b, CPU: user 11.74s system 0.18s, MEM: 84.18 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 27% 43x opt_expr (3 sec), 17% 25x opt_merge (2 sec), ...
